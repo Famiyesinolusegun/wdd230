@@ -3,39 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>olusegun famiyesin - WDD 230 - Web Frontend Development</title>
+    <title>Olusegun Famiyesin - WDD 230 - Web Frontend Development</title>
     <meta name="description" content="WDD 230 - Web Frontend Development - olusegun famiyesin - course assignment wdd230">
     <meta name="author" content="olusegun famiyesin">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/larger.css">  
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Web Frontend Development">
+    <meta property="og:type" content="website">       
+    <meta property="og:url" content="https://famiyesinolusegun.github.io/wdd230">
+    <meta property="og:image" content="images/one.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+     
 </head>
-<body>
-    <header>
-        <img src="images/profile.png" alt="Profile Image">
-        <span>Olusegun famiyesin</span>
-    </header>
-    <nav>
-        <ul>
+<body> 
+    <div class="container">
+        <header>
+            <div class="header_content">
+                <img class="profile_pic" src="images/profile.jpg" alt="Profile Picture">
+                <h1>Olusegun Famiyesin</h1>
+                <button id="hamburger"></button>
+                <button id="dark-mode-toggle" class="dark-mode-button">⚫️</button>
+        </header>
+    <nav id="nav-menu">
+        <ul class="menu">
             <li><a href="#">Home</a></li>
             <li><a href="#">Chamber</a></li>
-            <li><a href="#">Site Plan</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
             <li><a href="#">Form</a></li>
         </ul>
     </nav>
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
-        <section class="card">
-            <h2>Learning Activities</h2>
-            <ul>
+        <div class="main_content">
+            <section class="learning_activities">
+                <h2>Learning Activities</h2>
+                <ul>
                 <li>Week 1: <a href="week01/holygrail.html">Holy Grail</a> | <a href="week01/media-query.html">Media Query</a> | <a href="week01/chamber-site-plan.html">Chamber Site Plan</a></li>
-                <li>Week 02: (<a href="week02.html">w02</a>)</li>
+                <li>Week 2:<a href="week02/design.html">Design</a> | <a href="https://codepen.io/Olusegun-f/pen/MWdVQEJ">Hamburger Menu</a> | <a href="week02/bom.html">Book of Mormon </a></li>
                 <li>Week 03: (<a href="week03/example1.html">W03</a>) </li>
                 <li>Week 04: (<a href="week04/example1.html">W04</a>) </li>
                 <li>Week 05: (<a href="week05/example1.html">W05</a>)</li>
                 <li>Week 06: (<a href="week06/example1.html">W06</a>) </li>
             </ul>
         </section>
-        <section class="card">
+        <section class="information">
             <h2>Information</h2> 
             <p>lagos,Nigeria</p>
             <p>Weather: Sunny -75 F</p>
@@ -46,6 +61,8 @@
         <p>&copy; <span id="currentYear"></span> olusegun famiyesin ,Nigeria. </p>
         <p id="lastModified"></p>
     </footer>
-    <script src="scripts/getDates.js"></script>
+    <script src="scripts/getDates.js"></script> 
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darkmode.js"></script>
 </body>
 </html>
