@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is marico's Chamber of Commerce website">
+    <meta name="author" content="olusegun famiyesin">
+    <title>marico's Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="marico Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://famiyesinolusegun.github.io/wdd230/images/chamber/chamber3.jpg">
+    <meta property="og:url" content="https://famiyesinolusegun.github.io/wdd230/chamber/index.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&family=Verdana&family=Tahoma&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="index.html">maricochamber</a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+            <div class="links">
+                <ul class="nav-list">
+            <a href="index.html">Home</a>
+            <a href="Discover.html">Discover</a>
+            <a href="Directory.html">Directory</a>
+            <a href="join.html">Join us</a>
+        </ul>
+    </div>
+    <div id="darkModeToggle">🔆</div>
+</nav>
+    </header> 
+    <div class="visits">
+        <p>Page Last Visited: <span class="date"></span></p>
+    </div>
+    <h1>Discover</h1>
+    <main 
+        <div class="sidebar">
+            <section class="discover1">
+                <h2>Events</h2>
+                <h3>• Sunset Beach Music Festival</h3>
+                <p>July 8-10, 2025</p>
+                <h3>• Sunset Beach Art Walk</h3>
+                <p>September 3-5, 2025</p>
+                <h3>• Sunset Beach Seafood Festival</h3>
+                <p>October 15-17, 2025</p>
+                <h3>• Sunset Beach Fall Carnival</h3>
+                <p>November 12-14, 2025</p>
+                <h3>• Sunset Beach Holiday Market</h3>
+                <p>December 10-12, 2025</p>
+            </section>
+            <section class="discover2">
+                <h2>Attractions</h2>
+                <img src="images/music-festival.webp" alt="music-festival">
+                <p>Experience the Sunset Beach Music Festival, where you can enjoy live performances by renowned musicians against the backdrop of the beautiful beach.</p>
+                <p>-</p>
+                <p>Stroll through the Sunset Beach Art Walk, featuring local artists showcasing their stunning artworks in various mediums.</p>
+                <p>-</p>
+                <p>Indulge in a seafood extravaganza at the Sunset Beach Seafood Festival, offering a wide selection of fresh and delicious seafood dishes.</p>
+            </section>
+            <section class="discover3">
+                <h2>Demographics</h2>
+                <h3>Total Population:</h3>
+                <p>32,456</p>
+                <h3>Median Household Income:</h3>
+                <p>$78,920</p>
+                <h3>Bachelor's Degree or Higher:</h3>
+                <p>36.7%</p>
+                <h3>Employment Rate:</h3>
+                <p>64.2%</p>
+                <h3>Total Housing Units:</h3>
+                <p>14,567</p>
+                <h3>Without Health Care Coverage:</h3>
+                <p>5.2%</p>
+                <h3>Total Households:</h3>
+                <p>15,890</p>
+                <h3>Hispanic or Latino:</h3>
+                <p>4,567</p>
+            </section>
+            <section class="discover4">
+                <h2 id="calendar-header">Placeholder</h2>
+                <div class="calendar"></div>
+            </section>
+        </div>
+        <div class="images">
+            <h2>Welcome to Sunset Beach</h2>
+            <picture>
+                <img src="images/sunset-beach-sign.webp" alt="sunset-beach-sign" loading="lazy">
+            </picture>
+        
+            <h2>Coastal Beauty</h2>
+            <picture>
+                <img src="images/beach-scene.webp" alt="beach-scene" loading="lazy">
+            </picture>
+        
+            <h2>Artistic Vibes</h2>
+            <picture>
+                <img src="images/art-gallery.webp" alt="art-gallery" loading="lazy">
+            </picture>
+        
+            <h2>Seaside Delights</h2>
+            <picture>
+                <img src="images/seafood-restaurant.webp" alt="seafood-restaurant" loading="lazy">
+            </picture>
+        
+            <h2>Relaxation Paradise</h2>
+            <picture>
+                <img src="images/beach-chair.webp" alt="beach-chair" loading="lazy">
+            </picture>
+        
+            <h2>Local Shopping</h2>
+            <picture>
+                <img src="images/local-market.webp" alt="local-market" loading="lazy">
+            </picture>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> olusegun famiyesin</p>
+        <p>Contact : info@maricochamber.com </p> 
+        <p>WDD 230 - Web Frontend Development </p>
+        <p id="lastmodified"></p>
+    </footer>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/visit.js"></script> 
+    <script src="scripts/hamburger.js"></script>
+</body>
+
+</html>

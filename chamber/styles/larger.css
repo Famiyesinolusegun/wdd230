@@ -1,0 +1,153 @@
+@media screen and (min-width: 48px) {
+    body {
+        max-width: 80em;
+        margin: 0 auto;
+    }
+  
+    .logo {
+        padding-left: 1em;
+        font-size: 2em;
+    }
+  
+    .logo img {
+        height: 40px; 
+        display: block;
+    }
+  
+    .nav-list {
+        display: flex;
+        justify-content: center;
+    }
+  
+    .nav-list li {
+        display: block;
+    }
+  
+    #menu {
+        display: none;
+    }
+  
+    .hero-box {
+        z-index: 1;
+    }
+  
+    .hero-msg {
+        grid-row: 2/3;
+        margin-top: -5em;
+        z-index: 2;
+    }
+  
+    .main-home {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    .main-home-tile {
+        grid-column: 1/4;
+    }
+  
+    .current-event {
+        grid-column: 1/3;
+        margin: 1em 0 1em 1em;
+    }
+  
+    .spotlights {
+        grid-column: 1/4;
+        margin: 0 1em 1em 1em;
+    }
+  
+    .section-title3 {
+        grid-column: 1/4;
+    }
+  
+    .spot {
+        padding: 0 2em;
+        margin-top: 0;
+    }
+  
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+  
+    .copyright {
+        text-align: left;
+    }
+  
+    .lastmod {
+        text-align: center;
+    }
+  
+    .contacts {
+        text-align: right;
+    }
+  
+    .hero-paragraph1, .hero-paragraph2 {
+        display: none;
+    }
+  
+    .hero-paragraph3 {
+        display: block;
+    }
+  
+  
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        justify-content: center; /* Center the content horizontally */
+        align-items: center; /* Center the content vertically */
+    }
+    
+    nav a {
+        display: block;
+        padding: 50px;
+        margin-left: 20px;
+    }
+
+    .navigation {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Center the navigation items horizontally */
+        padding-left: 10px;
+        padding-right: 20px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    } 
+    
+    .event {
+        background-color: #6e5cf4;
+        color: white;
+        padding: 4%;
+        border-radius: 40px;
+        margin: 0 auto;
+        margin-bottom: 1%;
+        width: 50%;
+    }
+
+    .logo {
+        width: 200px;
+        height: 100px;
+    } 
+    
+    #logo-box:hover {
+        background-color: var(--primary-color);
+    }
+
+    #logo-box {
+        background-color: var(--primary-color);
+        position: absolute;
+        top: 0;
+    }
+
+    #logo-link {
+        color: white;
+    } 
+
+    .sidebar {
+        grid-column: 1 / 2;
+    }
+
+    .images img:hover {
+        box-shadow: 0 0 50px #333;
+    }
+}

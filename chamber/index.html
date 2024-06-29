@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is marico's Chamber of Commerce website">
+    <meta name="author" content="olusegun famiyesin">
+    <title>marico's Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="marico Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://famiyesinolusegun.github.io/wdd230/images/chamber/chamber3.jpg">
+    <meta property="og:url" content="https://famiyesinolusegun.github.io/wdd230/chamber/index.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&family=Verdana&family=Tahoma&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="index.html">maricochamber</a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+            <div class="links">
+                <ul class="nav-list">
+            <a href="index.html">Home</a>
+            <a href="Discover.html">Discover</a>
+            <a href="Directory.html">Directory</a>
+            <a href="join.html">Join us</a>
+        </ul>
+    </div>
+    <div id="darkModeToggle">🔆</div>
+</nav>
+
+<div class="hero">
+            <img src="images/hero.jpg" alt="hero" id="hero-img">
+        </div>
+        <section id="hero-msg">
+            <h1>Welcome to Marico Chamber of Commerce</h1>
+            
+            <div class="button-box">
+                <a class="join-us button" href="/wdd230/chamber/join.html">Join us</a>
+            </div>
+        </section>
+    </header> 
+
+
+    <main class="main-home"> 
+        
+        <section class="spotlights card">
+            <h3 class="section-title">Member Spotlights</h3>
+            <div class="grid-container">
+                <div class="spot spot1">
+                <img src="images/chamber1.jpg" alt="chamber1" id="image">
+                <p>GREATER KITCHENER WATERLOO</p>
+            </div> 
+           
+            <div class="spot spot2">
+                <img src="images/chamber2.jpg" alt="chamber2" id="image">
+                <p>MINTHILL</p>
+            </div> 
+            <div class="spot spot3">
+                <img src="images/chamber3.jpg" alt="chamber3" id="image">
+                <p> STONEY CREEK </p>
+            </div> 
+           
+       
+
+
+            <section class="current-event card">
+            <h3 class="section-title">Upcoming Events</h3>
+                <img src="images/Chumber Food Festival.webp" alt="Chumber Food Festival">
+                <p>Chumber Food Festival</p>
+                <p>Indulge in a culinary extravaganza showcasing the diverse flavors of Chumber's local cuisine.</p>
+                <img src="images/Chumber Art Exhibition.webp" alt="Chumber Art Exhibition">
+                <p>Chumber Art Exhibition</p>
+                <p>Immerse yourself in the vibrant art scene of Chumber with a display of captivating artworks by local talents.</p>
+                <img src="images/Chumber Cultural Fair.webp" alt="Chumber Cultural Fair">
+                <p>Chumber Cultural Fair</p>
+                <p>Experience the rich cultural heritage of Chumber through traditional music, dance, and crafts.</p>
+           
+        </section> 
+
+
+        <section class="weather-card card">
+            <h3 class="section-title">Weather</h3>
+            <h4>Today's Weather</h4>
+            <p>lagos,Nigeria</p>
+            <p id="current-temp"></p>
+           
+        
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> olusegun famiyesin</p>
+        <p>Contact : info@maricochamber.com </p> 
+        <p>WDD 230 - Web Frontend Development </p>
+        <p id="lastmodified"></p>
+    </footer>
+    <script src="scripts/index.js"></script> 
+    
+</body>
+
+</html>

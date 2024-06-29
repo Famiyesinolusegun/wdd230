@@ -1,5 +1,5 @@
 body {
-    font-family: "Segoe UI", sans-serif;
+    font-family: 'poppins', verdana;
     color: #333;
 }
 
@@ -16,7 +16,7 @@ footer {
 header {
     display: grid;
     margin-bottom: 0;
-    background-color: #3079ee;
+    background-color: rgb(182, 185, 235);
     color: #090302;
     grid-template-columns: auto 1fr;
 }
@@ -50,7 +50,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
-    background-color: #E6F1FF; 
+    background-color: #ececec; 
 }
 
 #wireframe {
@@ -69,11 +69,11 @@ figure {
 
 section {
     padding: 1rem;
-    background: #C2E0FF; 
+    background: #aeaeae; 
 }
 
 footer {
-    background-color: #3079ee;
+    background-color: rgb(182, 185, 235);
     display: flex;
     justify-content: space-between;
 }
