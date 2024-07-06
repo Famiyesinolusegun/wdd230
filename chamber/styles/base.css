@@ -434,4 +434,133 @@ body.dark-mode {
         border-width: 5px; /* Reduce the border width for small screens */
     }
 } 
+} 
+
+
+/* Join Page */
+.joinpage {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem auto;
+  }
+  
+  .joinmessage {
+    color: #2980b9;
+    font-size: 6rem; /* Adjust the value as needed */
+    margin-top: -50rem; /* Adjust the value as needed */
+  }
+  
+  .wf1 fieldset {
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    min-width: 375px;
+    max-width: 600px;
+  }
+  
+  .wf1 legend {
+    color: #2980b9;
+    padding: 0 .5rem;
+  }
+  
+  .wf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: var(--secondary-color);
+    font-size: .9rem;
+  }
+  
+  .wf1 input[type="text"],
+  .wf1 input[type="password"],
+  .wf1 input[type="email"],
+  .wf1 input[type="tel"],
+  .wf1 textarea {
+    background-color: #eee;
+    display: block;
+    border: solid 1px grey;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 90%;
+    min-width: 375px;
+    max-width: 575px;
+    appearance: none;
+  }
+  
+  .wf1 select {
+    display: block;
+    border: solid 1px grey;
+    border-radius: 6px;
+    padding: .75rem;
+    width: 95%;
+    min-width: 400px;
+    max-width: 600px;
+    appearance: none;
+  }
+  
+  #description {
+    padding-bottom: 3rem;
+  }
+  
+  .wf1 input[type="submit"] {
+    border: none;
+    background-color: #2980b9;
+    color: #ffffff;
+    padding: 1rem; /* Adjust the value as needed */
+    border-radius: 6px;
+    width: 96%;
+    max-width: 400px;
+    box-shadow: 1px 1px 4px #838383;
+    margin: 0 auto;
+    font-size: 1.2rem; /* Adjust the value as needed */
+  }
+  
+  .wf1 input[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  
+  .membership-benefits {
+    margin-top: 9em;
+    padding: 1em;
+    background: #2980b9;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    appearance: none;
+  }
+   
+
+
+  .membership-benefits h2 {
+    margin-top: 0;
 }
+
+.membership-benefits h3 {
+    padding-left: 1em;
+    list-style: disc;
+}
+
+.membership-benefits p {
+    margin-bottom: 0.5em;
+}
+
+
+  /* Mobile Version */
+  @media (max-width: 600px) {
+    .joinmessage {
+      font-size: 3rem; /* Adjust the value as needed */
+      margin-top: -20rem; /* Adjust the value as needed */
+    }
+  
+    .wf1 input[type="submit"] {
+      padding: 0.8rem; /* Adjust the value as needed */
+      font-size: 1rem; /* Adjust the value as needed */
+    }
+  
+    .membership-benefits {
+      margin-top: 4em; /* Adjust the value as needed */
+    }
+  }

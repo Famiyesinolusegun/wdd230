@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the join page for the marico's Chamber of Commerce website">
+    <meta name="author" content="olusegun famiyesin">
+    <title>marico's Chamber of Commerce Join Page - Membership Application</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="marico Chamber of Commerce Join Page ">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://famiyesinolusegun.github.io/wdd230/images/chamber/chamber3.jpg">
+    <meta property="og:url" content="https://famiyesinolusegun.github.io/wdd230/chamber/join.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&family=Verdana&family=Tahoma&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="index.html">maricochamber</a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+            <div class="links">
+                <ul class="nav-list">
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="Directory.html">Directory</a>
+            <a href="join.html">Join us</a>
+        </ul>
+    </div>
+    <div id="darkModeToggle">🔆</div>
+</nav>
+
+
+    </header> 
+   
+    
+    <main>
+        <h1 class="joinmessage">Join the Marico Chamber</h1>
+        <div class="joinpage">
+            <form method="get" action="thankyou.html" class="wf1">
+                <fieldset>
+                    <legend>Basic Information</legend>
+                        <label>First Name* <input type="text" id="fname" name="fname" required></label>
+                        <label>Last Name* <input type="text" id="lname" name="lname" required></label>
+                        <label>Title/Position* <input type="text" id="position" name="position " pattern="[a-zA-Z\- ]+.{7}" required></label>
+                        <label>Email<input type="email" id="email" name="email" placeholder="somone@domain.com" title="A valid email address." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required></label>
+                        <label>Mobile Phone Number* <input type="tel" id="phone" name="ohone" required></label>
+                </fieldset>        
+                <fieldset>
+                    <legend>Business Information</legend>        
+                        <label>Business/Organization Name* <input type="text" id="business" name="business" required></label>
+                        <label>Desired Membership Level
+                            <select name="level">
+                                <option value="">Please Select &#9662;</option>
+                                <option value="np">Non-Profit Membership</option>
+                                <option value="bronzeclass">Bronze Membership </option>
+                                <option value="silverclass">Silver Membership </option>
+                                <option value="goldclass">Gold Membership</option>
+                            </select>
+                        </label>
+                        <label>Businness Description<textarea id="description" name="description" cols="30" rows="15"></textarea></label>
+                        <label><input type="hidden" id="datenow" name="datenow"></label>
+                        <input type="submit" value="Join">
+                </fieldset>
+                </form>
+            
+                <div class="membership-benefits">
+                    <h2>Membership Benefits</h2>
+                    <div>
+                        <h3>Non-Profit Membership:</h3> <p>Access to all non-profit events and resources at no cost.</p>
+                        <h3>Bronze Membership:</h3> <p>Includes event discounts, basic advertising, and training sessions.</p>
+                        <h3>Silver Membership:</h3> <p>All Bronze benefits plus enhanced advertising and additional training sessions.</p>
+                        <h3>Gold Membership:</h3> <p>All Silver benefits plus premium advertising, special events, and exclusive offers.</p>
+                    </div>
+                </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> olusegun famiyesin</p>
+        <p>Contact : info@maricochamber.com </p> 
+        <p>WDD 230 - Web Frontend Development </p>
+        <p id="lastmodified"></p>
+    </footer>
+    <script src="scripts/index.js"></script> 
+    <script>
+        
+    </script>
+</body>
+
+</html>
