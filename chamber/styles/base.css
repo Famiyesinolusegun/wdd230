@@ -1,3 +1,441 @@
+body {
+    font-family: 'poppins', verdana, Tahoma; 
+   
+}
+:root {
+    --primary-color: #2980b9; /* Dark blue */
+    --secondary-color: #4a4a4a;
+    --accent1-color: #3498db; /* Light blue */
+    --accent2-color: white;
+    --headline-color-on-white: #2980b9; 
+    --headline-color-on-color: #ffffff;
+    --paragraph-color-on-white: #4a4a4a;
+    --paragraph-color-on-color: #ffffff;
+    --paragraph-background-color: #ffffff;
+    --nav-link-color: #000000;
+    --nav-background-color: #2980b9; 
+    --nav-hover-link-color: #474b49;
+    --nav-hover-background-color: #969696;
+}
+
+
+nav {
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    position: relative;
+    z-index: 10;
+}
+
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--nav-link-color);
+}
+
+.links {
+    display: none; /* Hide links by default on mobile */
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--nav-background-color);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: transform 0.3s ease;
+}
+
+.links.open {
+    display: flex;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-list li {
+    margin: 0;
+}
+
+.nav-list a {
+    color: var(--nav-link-color);
+    display: block;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-list a:hover,
+.nav-list a:active {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+    border-radius: 5px;
+}
+
+.hero-img {
+    width: auto;
+    height: auto;
+    object-fit: cover; /* Ensures the image fills the container without distortion */
+    object-position: center; /* Centers the image within the container */
+    margin-top: 20px; /* Adjust the value as per your preference */
+}
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "X";
+    margin-left: 1.5em;
+}
+
+.logo {
+    padding: 0.5em;
+    text-decoration: none;
+    color: var(--accent2-color);
+}
+
+.logo:hover{
+    text-decoration: underline;
+}
+
+.logo img {
+    width: auto;
+    height: 40px; /* Adjust the height as needed */
+    display: block;
+}
+
+.button {
+    font-family: var(--heading-font);
+    font-weight: 300;
+}
+
+.join:hover {
+    background-color: var(--accent1-color);
+    transition: 1s background;
+}
+
+.join-us:hover {
+    background-color: var(--accent2-color);
+    transition: 1s background;
+}
+
+
+
+#hero-msg {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 2em;
+    margin-top: 1em;
+    border-radius: 5px;
+    grid-column: 2/3;
+}
+
+.title {
+    color: var(--headline-color-on-color);
+    font-family: var(--title-font);
+    font-size: 3em;
+    font-weight: 300;
+    text-shadow: 4px 4px 4px var(--secondary-color);
+}
+
+.button-box a {
+    background-color: var(--secondary-color);
+    color: var(--headline-color-on-color);
+    padding: 15px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button-box a:hover {
+    background-color: var(--headline-color-on-color);
+    color: var(--secondary-color);
+    box-shadow: 0 0 30px var(--secondary-color);
+}
+
+.main-home {
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+.main-home h2 {
+    grid-column: 1/4;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    font-weight: 500;
+    text-align: center;
+    padding: 2em;
+}
+
+.card {
+    background-color: var(--paragraph-background-color);
+    color: var(--accent1-color);
+    padding: 2em;
+    margin: 1em;
+    border-radius: 5px;
+}
+
+
+.current-event.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.current-event.card img {
+    display: block;
+    max-width: 80%;
+    border: 3px solid var(--secondary-color);
+    
+    border-radius: 5px;
+}
+
+.current-event.card p {
+    max-width: 80%;
+    text-align: justify;
+    margin-bottom: 15px;
+    z-index: 1;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: black;
+    display: block;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10%;
+}
+
+.spotlights.card {
+    padding: 15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.spot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.spot img {
+    width: 60%;
+    display: block;
+    border: 2px solid var(--secondary-color);
+   
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.spot p {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.spot a {
+    color: var(--link-color);
+    transition: color 0.3s ease;
+}
+
+.spot a:hover {
+    color: var(--accent2-color);
+}
+
+.section-title {
+    text-align: left;
+    margin-bottom: 20px;
+}
+/* Hamburger menu styles */
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    top: 50%;
+    left: 15px;
+    background-color: var(--nav-background-color);
+    border: var(--secondary-color);
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: var(--secondary-color);
+    margin: 3px 0;
+    transition: 0.4s;
+}
+
+#menu::before {
+    content: "☰";
+    color: var(--secondary-color);
+    padding-right: 0.5em;
+}
+
+#darkModeToggle,
+#menu {
+    cursor: pointer;
+}
+
+/* Hamburger animation to X */
+.hamburger.open div:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger.open div:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.open div:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+
+
+
+
+/* DarkMode */
+
+#darkModeToggle {
+    cursor: pointer;
+    display: inline-block;
+}
+
+body.dark-mode {
+    background-color: black;
+    color: #000000;
+}
+
+.dark-mode .nav-background-color {
+    background-color: black;
+}
+
+.dark-mode .nav-link-color {
+    color: #ffffff;
+}
+
+.dark-mode .hero-img.light-mode-img {
+    display: none;  
+}
+
+
+.dark-mode .main-home {
+    background-color: black;
+}
+
+
+
+@media (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+
+    .links {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        align-items: center;
+        width: auto;
+    }
+
+    .nav-list {
+        flex-direction: row;
+    }
+
+    .nav-list li {
+        display: inline;
+    }
+
+ 
+ 
+/* Discover Page*/
+
+.discover2 img {
+    border: 10px solid #2f34b4;
+    width: 60%;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.sidebar section {
+    background-color: #e8ebee;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #222544;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    max-width: 100%;
+}
+
+.calendar .day {
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #f9f9f9;
+    font-size: 1.2em;
+}
+
+.calendar .header {
+    font-weight: bold;
+    background-color: #eee;
+}
+
+.calendar .empty {
+    background-color: transparent;
+    border: none;
+}
+
+.visits {
+    padding: 1rem;
+}
+
+@media (max-width: 480px) {
+    .calendar .day,
+    .calendar .header {
+        padding: 2px; /* Smaller padding for small screens */
+        font-size: 0.8em; /* Smaller font size for small screens */
+    }
+
+    .discover2 img {
+        width: 10%; /* Make the image fit the mobile screen */
+        border-width: 5px; /* Reduce the border width for small screens */
+    }
+} 
+}  
 /* Join Page */
 .joinpage {
     display: flex;
