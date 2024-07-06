@@ -150,4 +150,22 @@
     .images img:hover {
         box-shadow: 0 0 50px #333;
     }
-}
+} 
+
+
+/*Join Page*/
+
+    .membership-benefits {
+        grid-column: 2 / 4;
+    }
+    .joinmessage {
+        position: relative;
+        top: -20px; /* Adjust the value as needed */
+    }
+    
+    @media (max-width: 768px) {
+        form, .membership-benefits {
+            flex: 1 1 100%;
+            margin-bottom: 1em;
+        }
+    }
