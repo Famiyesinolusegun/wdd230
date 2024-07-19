@@ -585,7 +585,7 @@ div .forecast-item {
 
 .grid .member-card {
     display: inline-block;
-    width: 30%;
+    width: 20%;
 }
 
 .list .member-card {
@@ -621,82 +621,79 @@ div .forecast-item {
       margin-top: 4em; /* Adjust the value as needed */
     } 
      
-    #directory.grid {
-        display: block
-    }
-    
-    .grid .member {
-        text-align: center;
-        background-color: white;
-        border: 1px solid #ccc;
-        border-radius: 10px;
-        overflow: hidden;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-    
-    
-    .list .member img {
-        display: none;
-    }
-    
-    .list .member-info {
-        padding: 0; 
-    }
-    
-    .list .member-info h2 {
-        margin-bottom: 10px; 
-    }
-    
-    
-    
-    .list .member-info a {
-        display: block;
-        margin-top: 10px;
-        color: #6a1212;
-        text-decoration: none;
-    }
-    
-    .list .member-info a:hover {
-        text-decoration: underline;
-    }
-    
-    .member {
-        background-color: white;
-        border: 1px solid #ccc;
-        overflow: hidden;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        padding: 15px;
-    }
-    
-    .member img {
-        width: 100%;
-        height: auto;
-        border-bottom: 1px solid #ccc;
-    }
-    
-    .member-info {
-        padding: 15px;
-    }
-    
-    .member-info h2 {
-        margin: 0 0 10px;
-    }
-    
-    .member-info p {
-        margin: 5px 0;
-        
-    }
-    
-    .member-info a {
-        display: inline-block;
-        margin-top: 10px;
-        color: #6a1212;
-        text-decoration: none;
-    }
-    
-    .member-info a:hover {
-        text-decoration: underline;
-    }
-    }
-     
+   
+/* Grid Styles */
+#directory.grid {
+    display: block;
+  }
   
+  .grid .member {
+    text-align: center;
+    background-color: #2980b9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* List Styles */
+  .list .member img {
+    display: none;
+  }
+  
+  .list .member-info {
+    padding: 0;
+  }
+  
+  .list .member-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .list .member-info a {
+    display: block;
+    margin-top: 10px;
+    color: #589bc4;
+    text-decoration: none;
+  }
+  
+  .list .member-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Member Styles */
+  .member {
+    background-color: white;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+  }
+  
+  .member img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .member-info {
+    padding: 15px;
+  }
+  
+  .member-info h2 {
+    margin: 0 0 10px;
+  }
+  
+  .member-info p {
+    margin: 5px 0;
+  }
+  
+  .member-info a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  .member-info a:hover {
+    text-decoration: underline;
+  }
