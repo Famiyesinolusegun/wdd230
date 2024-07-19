@@ -7,7 +7,7 @@
         "phone": "(408) 555-1234",
         "website": "https://techinnovators.com",
         "image": "/images/tech_innovators_logo.png",
-        "membership_Level": "Platinum"
+        "membership_level": "Platinum"
         
       },
       {
@@ -16,7 +16,7 @@
         "phone": "(512) 555-5678",
         "website": "https://greenenergysolutions.com",
         "image": "/images/green_energy_logo.png",
-        "membership_Level": "Gold"
+        "membership_level": "Gold"
        
       },
       {
@@ -25,7 +25,7 @@
         "phone": "(212) 555-9101",
         "website": "https://urbanarchitects.com",
         "image": "/images/urban_architects_logo.png",
-        "membership_Level": "Silver"
+        "membership_level": "Silver"
         
       },
       {
@@ -34,7 +34,7 @@
         "phone": "(303) 555-2323",
         "website": "https://healthharmony.com",
         "image": "/images/health_harmony_logo.png",
-        "membership_Level": "Platinum"
+        "membership_level": "Platinum"
        
       },
       {
@@ -43,7 +43,7 @@
         "phone": "(415) 555-3456",
         "website": "https://gourmetdelights.com",
         "image": "/images/gourmet_delights_logo.png",
-        "membership_Level": "Gold"
+        "membership_level": "Gold"
        
       },
       {
@@ -52,7 +52,7 @@
         "phone": "(312) 555-7890",
         "website": "https://financialfuture.com",
         "image": "/images/financial_future_logo.png",
-        "membership_Level": "Silver"
+        "membership_level": "Silver"
       }, 
       {
         "name": "Adventure Outdoors",
@@ -60,7 +60,7 @@
         "phone": "(720) 555-6543",
         "website": "https://adventureoutdoors.com",
         "image": "/images/adventure_outdoors_logo.png",
-        "membership_Level": "Bronze"
+        "membership_level": "Bronze"
         
       } 
       ] 
