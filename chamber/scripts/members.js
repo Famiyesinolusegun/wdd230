@@ -1,45 +1,34 @@
-const companiesUrl = "https://famiyesinolusegun.github.io/wdd230/chamber/data/members.json";
-const mainElement = document.querySelector('#companies');
+function loadMemberDirectory() {
+    const memberContainer = document.getElementById("member-container");
+    const gridViewBtn = document.getElementById("grid-view");
+    const listViewBtn = document.getElementById("list-view");
 
-async function GetCompanies() {
-    const response = await fetch(companiesUrl);
-    if (response.ok) {
-        const data = await response.json();
-        DisplayMembers(data);
+    fetch("data/members.json")
+        .then(response => response.json())
+        .then(members => displayMembers(members))
+        .catch(error => console.error('Error loading members:', error));
+
+    gridViewBtn.addEventListener("click", () => toggleView('grid'));
+    listViewBtn.addEventListener("click", () => toggleView('list'));
+
+    function displayMembers(members) {
+        memberContainer.innerHTML = members.map(member => `
+            <div class="member-card">
+                <img src="/wdd230/chamber${member.image}" alt="${member.name}">
+                <h4>${member.name}</h4>
+                <p>${member.address}</p>
+                <p>${member.phone}</p>
+                <p><a href="${member.website}" target="_blank">${member.website}</a></p>
+                <p>Membership Level: ${member.membership_level}</p>
+            </div>
+        `).join('');
     }
-}
 
-function DisplayMembers({ companies }) {
-    companies.forEach(({ name, address, phone, url, imgFile, membershipLevel }) => {
-        const section = document.createElement('div');
-        const companyImage = document.createElement('img');
-        const companyName = document.createElement('h3');
-        const companyAddress = document.createElement('p');
-        const companyPhone = document.createElement('p');
-        const companyWebSite = document.createElement('a');
-        const companyMembership = document.createElement('p');
-
-        section.setAttribute('class', 'company-card')
-        companyName.innerText = name;
-        companyImage.setAttribute('src', "images/" + imgFile);
-        companyImage.setAttribute('alt', name + " logo");
-        companyImage.setAttribute('class', 'companies-imgs');
-        companyAddress.innerText = address;
-        companyPhone.innerText = phone;
-        companyWebSite.innerText = "Company Website";
-        companyWebSite.setAttribute('href', url);
-        companyMembership.innerText = membershipLevel;
-
-        section.appendChild(companyName);
-        section.appendChild(companyImage);
-        section.appendChild(companyAddress);
-        section.appendChild(companyPhone);
-        section.appendChild(companyWebSite);
-        section.appendChild(companyMembership);
-        mainElement.appendChild(section);
-
-    });
-
+    function toggleView(view) {
+        memberContainer.className = view;
+        gridViewBtn.classList.toggle('active', view === 'grid');
+        listViewBtn.classList.toggle('active', view === 'list');
+    }
 }
 
 

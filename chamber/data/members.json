@@ -1,69 +1,67 @@
-{ 
+[
    
-   "companies": [
 
       {
         "name": "Tech Innovators Inc.",
         "address": "123 Silicon Valley Blvd, San Jose, CA 95123",
         "phone": "(408) 555-1234",
-        "url": "https://www.techinnovators.com",
-        "imgFile": "tech_innovators_logo.webp",
-        "membershipLevel": "Platinum"
+        "website": "https://techinnovators.com",
+        "image": "/images/tech_innovators_logo.webp",
+        "membership_Level": "Platinum"
         
       },
       {
         "name": "Green Energy Solutions",
         "address": "456 Eco Park Ave, Austin, TX 78701",
         "phone": "(512) 555-5678",
-        "url": "https://www.greenenergysolutions.com",
-        "imgFile": "green_energy_logo.webp",
-        "membershipLevel": "Gold"
+        "website": "https://greenenergysolutions.com",
+        "image": "/images/green_energy_logo.webp",
+        "membership_Level": "Gold"
        
       },
       {
         "name": "Urban Architects Ltd.",
         "address": "789 Modern St, New York, NY 10001",
         "phone": "(212) 555-9101",
-        "url": "https://www.urbanarchitects.com",
-        "imgFile": "urban_architects_logo.webp",
-        "membershipLevel": "Silver"
+        "website": "https://urbanarchitects.com",
+        "image": "/images/urban_architects_logo.webp",
+        "membership_Level": "Silver"
         
       },
       {
         "name": "Health Harmony",
         "address": "321 Wellness Way, Boulder, CO 80301",
         "phone": "(303) 555-2323",
-        "url": "https://www.healthharmony.com",
-        "imgFile": "health_harmony_logo.webp",
-        "membershipLevel": "Platinum"
+        "website": "https://healthharmony.com",
+        "image": "/images/health_harmony_logo.webp",
+        "membership_Level": "Platinum"
        
       },
       {
         "name": "Gourmet Delights",
         "address": "654 Culinary Blvd, San Francisco, CA 94111",
         "phone": "(415) 555-3456",
-        "url": "https://www.gourmetdelights.com",
-        "imgFile": "gourmet_delights_logo.webp",
-        "membershipLevel": "Gold"
+        "website": "https://gourmetdelights.com",
+        "image": "/images/gourmet_delights_logo.webp",
+        "membership_Level": "Gold"
        
       },
       {
         "name": "Financial Future Advisors",
         "address": "987 Investment Ln, Chicago, IL 60606",
         "phone": "(312) 555-7890",
-        "url": "https://www.financialfuture.com",
-        "imgFile": "financial_future_logo.webp",
-        "membershipLevel": "Silver"
+        "website": "https://financialfuture.com",
+        "image": "/images/financial_future_logo.webp",
+        "membership_Level": "Silver"
       }, 
       {
         "name": "Adventure Outdoors",
         "address": "531 Nature Trail Rd, Denver, CO 80202",
         "phone": "(720) 555-6543",
-        "url": "https://www.adventureoutdoors.com",
-        "imgFile": "adventure_outdoors_logo.webp",
-        "membershipLevel": "Bronze"
+        "website": "https://adventureoutdoors.com",
+        "image": "/images/adventure_outdoors_logo.webp",
+        "membership_Level": "Bronze"
         
-      }
-    ] 
-  }
- 
+      } 
+      ] 
+  
