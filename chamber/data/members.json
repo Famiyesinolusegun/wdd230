@@ -1,4 +1,7 @@
-[
+{ 
+   
+   "members": [
+
       {
         "name": "Tech Innovators Inc.",
         "address": "123 Silicon Valley Blvd, San Jose, CA 95123",
@@ -62,5 +65,6 @@
         "membershipLevel": "Bronze",
         "otherInformation": "Provides outdoor gear and organizes adventure tours."
       }
-    ]
+    ] 
+  }
  
