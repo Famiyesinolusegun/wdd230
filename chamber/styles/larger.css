@@ -171,7 +171,8 @@
     }
  
     #directory.grid {
-        display: block
+        display: block 
+        
     }
     
     .grid .member {
