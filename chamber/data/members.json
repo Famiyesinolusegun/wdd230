@@ -6,7 +6,7 @@
         "name": "Tech Innovators Inc.",
         "address": "123 Silicon Valley Blvd, San Jose, CA 95123",
         "phone": "(408) 555-1234",
-        "website": "https://www.techinnovators.com",
+        "url": "https://www.techinnovators.com",
         "imgFile": "tech_innovators_logo.webp",
         "membershipLevel": "Platinum"
         
@@ -15,7 +15,7 @@
         "name": "Green Energy Solutions",
         "address": "456 Eco Park Ave, Austin, TX 78701",
         "phone": "(512) 555-5678",
-        "website": "https://www.greenenergysolutions.com",
+        "url": "https://www.greenenergysolutions.com",
         "imgFile": "green_energy_logo.webp",
         "membershipLevel": "Gold"
        
@@ -24,7 +24,7 @@
         "name": "Urban Architects Ltd.",
         "address": "789 Modern St, New York, NY 10001",
         "phone": "(212) 555-9101",
-        "website": "https://www.urbanarchitects.com",
+        "url": "https://www.urbanarchitects.com",
         "imgFile": "urban_architects_logo.webp",
         "membershipLevel": "Silver"
         
@@ -33,7 +33,7 @@
         "name": "Health Harmony",
         "address": "321 Wellness Way, Boulder, CO 80301",
         "phone": "(303) 555-2323",
-        "website": "https://www.healthharmony.com",
+        "url": "https://www.healthharmony.com",
         "imgFile": "health_harmony_logo.webp",
         "membershipLevel": "Platinum"
        
@@ -42,7 +42,7 @@
         "name": "Gourmet Delights",
         "address": "654 Culinary Blvd, San Francisco, CA 94111",
         "phone": "(415) 555-3456",
-        "website": "https://www.gourmetdelights.com",
+        "url": "https://www.gourmetdelights.com",
         "imgFile": "gourmet_delights_logo.webp",
         "membershipLevel": "Gold"
        
@@ -51,7 +51,7 @@
         "name": "Financial Future Advisors",
         "address": "987 Investment Ln, Chicago, IL 60606",
         "phone": "(312) 555-7890",
-        "website": "https://www.financialfuture.com",
+        "url": "https://www.financialfuture.com",
         "imgFile": "financial_future_logo.webp",
         "membershipLevel": "Silver"
       }, 
@@ -59,7 +59,7 @@
         "name": "Adventure Outdoors",
         "address": "531 Nature Trail Rd, Denver, CO 80202",
         "phone": "(720) 555-6543",
-        "website": "https://www.adventureoutdoors.com",
+        "url": "https://www.adventureoutdoors.com",
         "imgFile": "adventure_outdoors_logo.webp",
         "membershipLevel": "Bronze"
         
