@@ -545,8 +545,10 @@ body.dark-mode {
 .membership-benefits p {
     margin-bottom: 0.5em;
 }
-  
  
+
+
+    
 #weather-icon {
     width: 30%;
 }
@@ -564,7 +566,8 @@ div .forecast-item {
 .weather-card {
     text-align: center;
     font-size: 1em;
-}  
+}   
+     
 
 
   /* Mobile Version */
@@ -581,8 +584,8 @@ div .forecast-item {
   
     .membership-benefits {
       margin-top: 4em; /* Adjust the value as needed */
-    }
-   
+    } 
+     
     #member-container.list .member-card img {
         display: none;
     }
