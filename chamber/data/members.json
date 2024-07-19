@@ -6,7 +6,7 @@
         "address": "123 Silicon Valley Blvd, San Jose, CA 95123",
         "phone": "(408) 555-1234",
         "website": "https://techinnovators.com",
-        "image": "/images/tech_innovators_logo.webp",
+        "image": "/images/tech_innovators_logo.png",
         "membership_Level": "Platinum"
         
       },
@@ -15,7 +15,7 @@
         "address": "456 Eco Park Ave, Austin, TX 78701",
         "phone": "(512) 555-5678",
         "website": "https://greenenergysolutions.com",
-        "image": "/images/green_energy_logo.webp",
+        "image": "/images/green_energy_logo.png",
         "membership_Level": "Gold"
        
       },
@@ -24,7 +24,7 @@
         "address": "789 Modern St, New York, NY 10001",
         "phone": "(212) 555-9101",
         "website": "https://urbanarchitects.com",
-        "image": "/images/urban_architects_logo.webp",
+        "image": "/images/urban_architects_logo.png",
         "membership_Level": "Silver"
         
       },
@@ -33,7 +33,7 @@
         "address": "321 Wellness Way, Boulder, CO 80301",
         "phone": "(303) 555-2323",
         "website": "https://healthharmony.com",
-        "image": "/images/health_harmony_logo.webp",
+        "image": "/images/health_harmony_logo.png",
         "membership_Level": "Platinum"
        
       },
@@ -42,7 +42,7 @@
         "address": "654 Culinary Blvd, San Francisco, CA 94111",
         "phone": "(415) 555-3456",
         "website": "https://gourmetdelights.com",
-        "image": "/images/gourmet_delights_logo.webp",
+        "image": "/images/gourmet_delights_logo.png",
         "membership_Level": "Gold"
        
       },
@@ -51,7 +51,7 @@
         "address": "987 Investment Ln, Chicago, IL 60606",
         "phone": "(312) 555-7890",
         "website": "https://financialfuture.com",
-        "image": "/images/financial_future_logo.webp",
+        "image": "/images/financial_future_logo.png",
         "membership_Level": "Silver"
       }, 
       {
@@ -59,7 +59,7 @@
         "address": "531 Nature Trail Rd, Denver, CO 80202",
         "phone": "(720) 555-6543",
         "website": "https://adventureoutdoors.com",
-        "image": "/images/adventure_outdoors_logo.webp",
+        "image": "/images/adventure_outdoors_logo.png",
         "membership_Level": "Bronze"
         
       } 
