@@ -47,16 +47,13 @@
         <p>Page Last Visited: <span class="date"></span></p>
     </div>
     
-    <main>
-        <section class="directory">
-            <h2>Member Directory</h2>
-            <div class="view-toggle">
-                <button id="grid-view" class="active">Grid View</button>
-                <button id="list-view">List View</button>
-            </div>
-            <div id="member-container" class="grid"></div>
-        </section>
-        <div id="visit-message"></div>
+    <main id="directory-content">
+        <div id="buttons-container">
+            <button id="grid">⏹️Grid</button>
+            <button id="list">📄List</button>
+        </div>
+        <div class="grid" id="companies"></div>
+
     </main>
     <footer>
         <p>&copy;<span id="year"></span> olusegun famiyesin</p>
