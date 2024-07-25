@@ -631,9 +631,10 @@ div .forecast-item {
     background-color: #3498db;
   }
   
-  
   #directory.grid {
-    display: block
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
   }
   
   .grid .member {
@@ -645,66 +646,10 @@ div .forecast-item {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  
-  .list .member img {
-    display: none;
-  }
-  
-  .list .member-info {
-    padding: 0; 
-  }
-  
-  .list .member-info h2 {
-    margin-bottom: 10px; 
-  }
-  
-  
-  
-  .list .member-info a {
-    display: block;
-    margin-top: 10px;
-    color: #3498db;
-    text-decoration: none;
-  }
-  
-  .list .member-info a:hover {
-    text-decoration: underline;
-  }
-  
   .member {
     background-color: white;
     border: 1px solid #ccc;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 15px;
-  }
-  
-  .member img {
-    width: 100%;
-    height: auto;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .member-info {
-    padding: 15px;
-  }
-  
-  .member-info h2 {
-    margin: 0 0 10px;
-  }
-  
-  .member-info p {
-    margin: 5px 0;
-    
-  }
-  
-  .member-info a {
-    display: inline-block;
-    margin-top: 10px;
-    color: #3498db;
-    text-decoration: none;
-  }
-  
-  .member-info a:hover {
-    text-decoration: underline;
   }
