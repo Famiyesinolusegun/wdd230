@@ -592,11 +592,9 @@ div .forecast-item {
     display: block;
     width: 100%;
 }
-
 #toggleView {
     text-align: center;
     margin-bottom: 20px;
-    
   }
   
   #toggleView button {
@@ -614,8 +612,7 @@ div .forecast-item {
   
   
   #directory.grid {
-    display: flex;
-    
+    display: block
   }
   
   .grid .member {
@@ -625,9 +622,7 @@ div .forecast-item {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 30%; /* Adjust the width as needed */
-    margin: 50px; /* Add margin between the columns */
-}
+  }
   
   
   .list .member img {
