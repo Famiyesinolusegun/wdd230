@@ -593,24 +593,8 @@ div .forecast-item {
     width: 100%;
 }
 
+ 
 
-  /* Mobile Version */
-  @media (max-width: 600px) {
-    .joinmessage {
-      font-size: 3rem; /* Adjust the value as needed */
-      margin-top: -20rem; /* Adjust the value as needed */
-    }
-  
-    .wf1 input[type="submit"] {
-      padding: 0.8rem; /* Adjust the value as needed */
-      font-size: 1rem; /* Adjust the value as needed */
-    }
-  
-    .membership-benefits {
-      margin-top: 4em; /* Adjust the value as needed */
-    } 
-     
-} 
 
 
 #toggleView {
@@ -653,3 +637,29 @@ div .forecast-item {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 15px;
   }
+
+
+
+
+
+
+
+
+  /* Mobile Version */
+  @media (max-width: 600px) {
+    .joinmessage {
+      font-size: 3rem; /* Adjust the value as needed */
+      margin-top: -20rem; /* Adjust the value as needed */
+    }
+  
+    .wf1 input[type="submit"] {
+      padding: 0.8rem; /* Adjust the value as needed */
+      font-size: 1rem; /* Adjust the value as needed */
+    }
+  
+    .membership-benefits {
+      margin-top: 4em; /* Adjust the value as needed */
+    } 
+     
+} 
+
