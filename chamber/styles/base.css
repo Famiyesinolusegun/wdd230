@@ -604,7 +604,7 @@ div .forecast-item {
   
   #toggleView button {
     padding: 10px 20px;
-    margin: 0 40px;
+    margin: 0 10px;
     border: none;
     background-color: #3498db;
     color: white;
@@ -618,7 +618,7 @@ div .forecast-item {
   #directory.grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 60px;
+    grid-gap: 20px;
   }
   
   .grid .member {
@@ -635,7 +635,7 @@ div .forecast-item {
     border: 1px solid #ccc;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 80px;
+    padding: 15px;
   }
 
 
