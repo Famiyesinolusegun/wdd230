@@ -615,8 +615,7 @@ div .forecast-item {
   
   #directory.grid {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    
   }
   
   .grid .member {
