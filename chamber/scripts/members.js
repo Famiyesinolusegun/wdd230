@@ -67,27 +67,3 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
-//buttons
-const gridbutton = document.querySelector('#grid');
-const listbutton = document.querySelector('#list');
-
-
-gridbutton.addEventListener('click', () => {
-    mainElement.classList.add('grid');
-    mainElement.classList.remove('list');
-});
-
-listbutton.addEventListener('click', () => {
-    mainElement.classList.add('list');
-    mainElement.classList.remove('grid');
-});
-
-
-// hamburguer button
-const hButton = document.querySelector('#menu');
-const navigation = document.querySelector('.navigation');
-
-hButton.addEventListener('click', () => {
-    navigation.classList.toggle('open');
-    hButton.classList.toggle('open');
-})
